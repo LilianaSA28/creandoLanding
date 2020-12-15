@@ -1,0 +1,28 @@
+
+main{
+    display: grid;
+    grid-template-columns:(12 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+}
+main div{
+    background-color: rgb(233,171,88,5);
+}
+.title{
+    grid-column:2 / 2 ;
+    grid-row: 3;
+
+}
+.title0{
+    grid-column:3 / 3;
+    grid-row:2;
+}
+.container2{
+
+}
+.container3{
+
+}
+.container4{
+
+}

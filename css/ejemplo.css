@@ -1,0 +1,22 @@
+*{box-sizing:border-box;}
+.wrapper{
+    border: 3px solid rgb(153, 100, 30) ;
+    border-radius: 5px;
+    background-color: orange;
+    display: grid;
+   grid-template-columns:repeat(auto-fill, minmax(200px, 1fr) );
+    align-items:center;
+   
+}
+.wrapper > div{
+    border:3.2px solid rgb(31, 202, 151);
+    border-radius: 6px;
+    background-color: rgb(243, 210, 148);
+    padding: 1.5em;
+}
+/*.box1{
+    align-self:stretch;
+}
+.box2{
+    align-self:start;
+}*/
