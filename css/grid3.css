@@ -1,0 +1,144 @@
+*{box-sizing: border-box;}   
+
+.container1,.parrafo, .container2,.container3{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(12, 1fr));
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap:5px;
+    
+    
+}
+
+.container1{
+    height: 6.5em;
+}
+.title1{
+    grid-column: 7/ 13;
+    grid-row: 1;
+    color:#c9c3c8;
+    font-size:1.3em;
+    align-self: end;
+    font-weight: 900;
+    height:2em;
+       
+}
+
+.title1 span{
+    grid-column: 8 / 13;
+    grid-row: 1;
+    color:#675e66;
+    font-weight: 900;
+    font-size: 2em;  
+} 
+  
+.title2{
+    grid-column: 1 / 7;
+    grid-row: 2;
+    background-color:#e64a48;
+    color:white ;
+    font-size:large;
+    letter-spacing:0.3em;
+    padding: 0.2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title3{
+    grid-column: 8 / 13;
+    grid-row: 2;
+    color:#e64a48;
+    font-weight: 900;
+    font-size: 3em;  
+}
+
+.title3 span{
+    color:#c9c3c8;
+    font-size:0.5em ; 
+ }
+
+ .parrafo p {
+    grid-column:7 / 13 ; 
+    grid-row:2  / 13; 
+    height: 4.5em;
+    font-size:large;
+    color:  #675e66;
+   
+ }
+.container2{
+    background-color: #675e66; 
+    height: 12.8em; 
+    margin-top: 30px;
+}
+img{
+   grid-column: 2 / 2;
+  grid-row: 1 / 5;
+  align-self: center;
+  justify-self: center;
+    
+}
+.ventajas{
+    grid-column: 3 / 3;
+    grid-row: 1 / 4;
+    color:white;
+    font-size: xx-large;
+    font-weight: 900;
+    align-self: start;
+
+}
+.text{
+    grid-column: 4/ 12;
+    grid-row: 1 / 1;
+    align-self:start;
+    white-space: pre-line;
+    line-height:100%;
+    height: 14em;
+    color:white;
+    }
+
+.container3{
+    height: 11em;
+    margin-top: 2.5em;
+}
+.preciotext{
+    grid-column:3 / 12;
+    grid-row: 2 / 2;
+    font-weight: 900;
+    text-align: center;
+    width: 11em;
+    font-size:x-large;
+    color: #675e66;
+}
+.precio{
+    grid-column: 3 / 12;
+    grid-row: 3 /3 ;
+    font-weight: 900;
+   text-align: center;
+   font-size:x-large;
+   height: 5em;
+   width: 11em;
+   background-color:#675e66;
+   color:white;
+   
+}
+.img{
+    grid-column: 2/ 12 ;
+    grid-row: 2 / 4;
+
+}
+@media screen and (min-width: 500px){
+    .container1 {
+       
+    }
+    .parrafo{
+
+    } 
+    .container{
+
+    }.container3{
+        
+    }
+    
+
+}
